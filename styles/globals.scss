@@ -1,0 +1,51 @@
+@import './variables.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  @media (max-width: 390px) {
+    font-size: 14px;
+  }
+}
+
+body {
+  background: $primary-color;
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  line-height: 2.5rem;
+  color: $light-color;
+}
+
+.formContainer {
+  padding: 0 1rem;
+
+  div {
+    max-width: 640px;
+    margin: 3rem auto;
+    background: $secondary-color;
+    box-shadow: rgb(1, 4, 9) 0px 8px 24px;
+    padding: 3rem 2rem;
+    border-radius: 10px;
+
+    @media (max-width: 480px) {
+      padding: 3rem 1rem;
+    }
+  }
+}
+
+p {
+  display: block;
+  font-size: .75rem;
+  color: $green-color-hover;
+}
