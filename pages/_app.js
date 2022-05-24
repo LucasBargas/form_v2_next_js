@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:title" content="Lucas Bargas - Formulário de Cadastro V2" />
         <meta property="og:site_name" content="Formulário de Cadastro V2" />
         <meta property="og:description" content="Esta aplicação web foi criado por Lucas Bargas e tem como objetivo praticar sua lógica em NextJS e seus conhecimentos no pré-processador SASS. " />
-        <meta property="og:url" content="https://form-v1-vanilla-js-lucasbargas.vercel.app/" />
+        <meta property="og:url" content="https://form-v2-next-js-lucasbargas.vercel.app/" />
       </Head>
       <Component {...pageProps} />
     </>
